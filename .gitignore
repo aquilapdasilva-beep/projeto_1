@@ -1,0 +1,46 @@
+# Arquivos Python compilados
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais Python
+
+venv/
+.venv/
+env/
+
+# Configurações do editor
+
+.vscode/
+.idea/
+
+# Arquivos temporários e logs
+
+*.log
+*.tmp
+
+# Variáveis de ambiente e informações confidenciais
+
+.env
+.env.*
+
+# Arquivos do sistema operacional
+
+.DS_Store
+Thumbs.db
+
+# Configurações de testes e análise
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Arquivos de configuração local
+
+*.local
+#estado local do flet
+.flet/
+
+#banco de dados
+*.db
